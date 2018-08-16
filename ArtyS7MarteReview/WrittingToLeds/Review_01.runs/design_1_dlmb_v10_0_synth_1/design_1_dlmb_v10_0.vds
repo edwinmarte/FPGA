@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Aug 13 22:01:07 2018
+# Process ID: 12660
+# Current directory: C:/Users/E.Marte/Documents/Vivado_Proyects/Review_01/Review_01.runs/design_1_dlmb_v10_0_synth_1
+# Command line: vivado.exe -log design_1_dlmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_dlmb_v10_0.tcl
+# Log file: C:/Users/E.Marte/Documents/Vivado_Proyects/Review_01/Review_01.runs/design_1_dlmb_v10_0_synth_1/design_1_dlmb_v10_0.vds
+# Journal file: C:/Users/E.Marte/Documents/Vivado_Proyects/Review_01/Review_01.runs/design_1_dlmb_v10_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_dlmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 295.008 ; gain = 68.762
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_dlmb_v10_0, cache-ID = 37fd725b6070b47c.
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 13 22:01:41 2018...

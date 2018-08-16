@@ -1,0 +1,21 @@
+15:20:19 **** Incremental Build of configuration Debug for project Testled03 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Testled03_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Testled03.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Testled03_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Testled03.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Testled03.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Testled03.elf  |tee "Testled03.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2932	    308	   3112	   6352	   18d0	Testled03.elf
+'Finished building: Testled03.elf.size'
+' '
+
+15:20:27 Build Finished (took 8s.139ms)
+
