@@ -1,0 +1,240 @@
+!SESSION 2018-08-16 14:06:19.441 -----------------------------------------------
+eclipse.buildId=2017.4
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk
+
+This is a continuation of log file C:\Users\E.Marte\Documents\GitHub\Marte_Fpga\ArtyS7MarteReview\SimpleGpio\Review_01.sdk\.metadata\.bak_0.log
+Created Time: 2018-08-16 14:11:54.830
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:54.953
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:55.082
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:55.139
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.211
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.249
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.310
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.335
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.375
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 166758620]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.400
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.429
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.452
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.530
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6C260A
+  3  Analog Discovery 210244517704 (closed)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.553
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.629
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6C260A
+  3  Analog Discovery 210244517704 (closed)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.670
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.917
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:11:56.943
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.218
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.244
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==0} -index 0], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.498
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==0} -index 0], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.524
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.578
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.616
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.645
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.674
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.754
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6C260A
+  3  Analog Discovery 210244517704 (closed)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.785
+!MESSAGE XSCT Command: [version -server], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.818
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.4]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.845
+!MESSAGE XSCT Command: [version], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.894
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.4]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:00.930
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:01.002
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6C260A
+  3  Analog Discovery 210244517704 (closed)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:01.026
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:01.254
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:01.281
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:04.614
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:04.643
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:04.724
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6C260A
+  3  Analog Discovery 210244517704 (closed)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:04.753
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:04.981
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:05.004
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:08.240
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:08.284
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:08.380
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6C260A
+  3  Analog Discovery 210244517704 (closed)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:08.410
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:08.789
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:08.853
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:12.235
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:12.274
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:12.426
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Arty S7 - 50 210352A6C260A
+  3  Analog Discovery 210244517704 (closed)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:12.498
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:12.839
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:12.872
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:16.260
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 210244517704 (closed)" && level==1}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:16.346
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Arty S7 - 50 210352A6C260A" && level == 0}], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:16.836
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Arty S7 - 50 210352A6C260A" && level == 0}], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:16.877
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:16.954
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:17.021
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:17.107
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "166758620",
+"Dbg_Clk": "",
+}]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:17.160
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A"} -index 0], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:17.689
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A"} -index 0], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:17.716
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:17.864
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:17.904
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A"} -index 0], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:18.466
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A"} -index 0], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:18.503
+!MESSAGE XSCT Command: [dow C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/TestLed01/Debug/TestLed01.elf], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:18.856
+!MESSAGE XSCT command with result: [dow C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SimpleGpio/Review_01.sdk/TestLed01/Debug/TestLed01.elf], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:19.577
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A"} -index 0], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:20.260
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty S7 - 50 210352A6C260A"} -index 0], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:20.299
+!MESSAGE XSCT Command: [con], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:20.431
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:32.985
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-97
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-08-16 14:12:33.230
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-97
