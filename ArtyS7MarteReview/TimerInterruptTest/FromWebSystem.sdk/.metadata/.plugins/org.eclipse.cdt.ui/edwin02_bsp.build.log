@@ -1,0 +1,6 @@
+13:03:40 **** Build of project edwin02_bsp ****
+make -k all 
+make: *** No rule to make target `all'.
+
+13:03:40 Build Finished (took 137ms)
+

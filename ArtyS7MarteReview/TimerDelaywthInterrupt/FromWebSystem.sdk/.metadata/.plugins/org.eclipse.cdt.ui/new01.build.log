@@ -1,0 +1,17 @@
+17:43:41 **** Incremental Build of configuration Debug for project new01 ****
+make all 
+'Building file: ../src/gpiotest.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpiotest.o" -I../../new01_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpiotest.d" -MT"src/gpiotest.o" -o "src/gpiotest.o" "../src/gpiotest.c"
+../src/gpiotest.c: In function 'main2':
+../src/gpiotest.c:11:28: error: 'GpioOutput' undeclared (first use in this function)
+    XGpio_SetDataDirection(&GpioOutput, LED_CHANNEL, 0x0);
+                            ^~~~~~~~~~
+../src/gpiotest.c:11:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/gpiotest.c:11:40: error: 'LED_CHANNEL' undeclared (first use in this function)
+    XGpio_SetDataDirection(&GpioOutput, LED_CHANNEL, 0x0);
+                                        ^~~~~~~~~~~
+make: *** [src/gpiotest.o] Error 1
+
+17:43:41 Build Finished (took 363ms)
+

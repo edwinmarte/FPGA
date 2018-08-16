@@ -1,0 +1,13 @@
+17:43:42 **** Incremental Build of configuration Debug for project new02 ****
+make all 
+'Building file: ../src/new02.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/new02.o" -I../../new02_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/new02.d" -MT"src/new02.o" -o "src/new02.o" "../src/new02.c"
+../src/new02.c:49:22: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+                      ^
+compilation terminated.
+make: *** [src/new02.o] Error 1
+
+17:43:42 Build Finished (took 337ms)
+

@@ -1,0 +1,20 @@
+17:44:26 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building target: hello.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2017.4/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/6.2.0/../../../../microblaze-xilinx-elf/lib/le\libxil.a(print.o): In function `print':
+(.text+0x20): undefined reference to `outbyte'
+./src/helloworld.o: In function `main':
+C:\Users\ARIA5WK\Documents\ARTY_Proy\Clean_latest\FromWebSystem\FromWebSystem.sdk\hello\Debug/../src/helloworld.c:60: undefined reference to `Xil_Out32'
+./src/platform.o: In function `enable_caches':
+C:\Users\ARIA5WK\Documents\ARTY_Proy\Clean_latest\FromWebSystem\FromWebSystem.sdk\hello\Debug/../src/platform.c:60: undefined reference to `microblaze_enable_icache'
+C:\Users\ARIA5WK\Documents\ARTY_Proy\Clean_latest\FromWebSystem\FromWebSystem.sdk\hello\Debug/../src/platform.c:63: undefined reference to `microblaze_enable_dcache'
+./src/platform.o: In function `disable_caches':
+C:\Users\ARIA5WK\Documents\ARTY_Proy\Clean_latest\FromWebSystem\FromWebSystem.sdk\hello\Debug/../src/platform.c:73: undefined reference to `Xil_DCacheDisable'
+C:\Users\ARIA5WK\Documents\ARTY_Proy\Clean_latest\FromWebSystem\FromWebSystem.sdk\hello\Debug/../src/platform.c:76: undefined reference to `Xil_ICacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [hello.elf] Error 1
+
+17:44:28 Build Finished (took 1s.487ms)
+

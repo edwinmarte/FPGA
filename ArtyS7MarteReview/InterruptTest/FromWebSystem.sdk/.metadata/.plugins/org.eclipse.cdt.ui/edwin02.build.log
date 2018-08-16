@@ -1,0 +1,16 @@
+13:03:40 **** Build of configuration Debug for project edwin02 ****
+make all 
+'Building file: ../src/test01.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/test01.o" -I../../edwin02_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/test01.d" -MT"src/test01.o" -o "src/test01.o" "../src/test01.c"
+../src/test01.c:57:1: error: stray '##' in program
+ ##include "platform.h"
+ ^~
+../src/test01.c:58:24: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+                        ^
+compilation terminated.
+make: *** [src/test01.o] Error 1
+
+13:03:40 Build Finished (took 378ms)
+

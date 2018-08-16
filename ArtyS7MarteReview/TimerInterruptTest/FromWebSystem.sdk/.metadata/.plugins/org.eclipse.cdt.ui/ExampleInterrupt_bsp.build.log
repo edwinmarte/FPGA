@@ -1,0 +1,16 @@
+16:18:22 **** Build of project ExampleInterrupt_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+cp: target `../../../include' is not a directory
+make[1]: *** [include] Error 1
+make: *** [microblaze_0/libsrc/tmrctr_v4_4/src/make.include] Error 2
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+cp: target `../../../include' is not a directory
+make[1]: *** [include] Error 1
+make: *** [microblaze_0/libsrc/uartlite_v3_2/src/make.include] Error 2
+make: Target `all' not remade because of errors.
+
+16:18:27 Build Finished (took 5s.831ms)
+

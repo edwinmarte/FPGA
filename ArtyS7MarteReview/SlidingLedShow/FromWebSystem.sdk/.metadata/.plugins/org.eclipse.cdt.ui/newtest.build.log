@@ -1,0 +1,13 @@
+17:43:43 **** Incremental Build of configuration Debug for project newtest ****
+make all 
+'Building target: newtest.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../newtest_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "newtest.elf"  ./src/new03.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/new03.o: In function `main':
+C:\Users\ARIA5WK\Documents\ARTY_Proy\Clean_latest\FromWebSystem\FromWebSystem.sdk\newtest\Debug/../src/new03.c:64: undefined reference to `init_platform'
+C:\Users\ARIA5WK\Documents\ARTY_Proy\Clean_latest\FromWebSystem\FromWebSystem.sdk\newtest\Debug/../src/new03.c:69: undefined reference to `cleanup_platform'
+collect2.exe: error: ld returned 1 exit status
+make: *** [newtest.elf] Error 1
+
+17:43:44 Build Finished (took 351ms)
+

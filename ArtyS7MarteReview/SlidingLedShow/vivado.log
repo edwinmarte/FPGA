@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Aug 16 16:45:18 2018
+# Process ID: 13404
+# Current directory: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14628 C:\Users\E.Marte\Documents\GitHub\Marte_Fpga\ArtyS7MarteReview\SlidingLedShow\FromWebSystem.xpr
+# Log file: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/vivado.log
+# Journal file: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/FromWebSystem.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ARIA5WK/Documents/ARTY_Proy/Clean_latest/FromWebSystem' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/E.Marte/Documents/GitHub/Arty-S7-50-Rev-E-Master2.xdc', nor could it be found using path 'C:/Users/ARIA5WK/Documents/Arty-S7-50-Rev-E-Master2.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:02:27 ; elapsed = 00:03:48 . Memory (MB): peak = 842.027 ; gain = 154.988
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/FromWebSystem.sdk -hwspec C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/FromWebSystem.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/FromWebSystem.sdk -hwspec C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/FromWebSystem.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 16 17:08:02 2018...

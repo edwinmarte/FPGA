@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Aug 16 16:45:18 2018
+# Process ID: 13404
+# Current directory: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14628 C:\Users\E.Marte\Documents\GitHub\Marte_Fpga\ArtyS7MarteReview\SlidingLedShow\FromWebSystem.xpr
+# Log file: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/vivado.log
+# Journal file: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/FromWebSystem.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/FromWebSystem.sdk -hwspec C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/SlidingLedShow/FromWebSystem.sdk/design_1_wrapper.hdf

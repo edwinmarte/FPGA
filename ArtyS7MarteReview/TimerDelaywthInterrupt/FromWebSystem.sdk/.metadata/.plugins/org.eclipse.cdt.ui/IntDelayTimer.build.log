@@ -1,0 +1,6 @@
+17:06:25 **** Incremental Build of configuration Debug for project IntDelayTimer ****
+make all 
+make: Nothing to be done for `all'.
+
+17:06:29 Build Finished (took 4s.18ms)
+

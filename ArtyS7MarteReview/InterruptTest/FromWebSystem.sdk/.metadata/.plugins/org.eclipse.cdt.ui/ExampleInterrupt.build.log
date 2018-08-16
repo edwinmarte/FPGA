@@ -1,0 +1,6 @@
+16:52:55 **** Incremental Build of configuration Debug for project ExampleInterrupt ****
+make all 
+make: Nothing to be done for `all'.
+
+16:52:57 Build Finished (took 2s.265ms)
+

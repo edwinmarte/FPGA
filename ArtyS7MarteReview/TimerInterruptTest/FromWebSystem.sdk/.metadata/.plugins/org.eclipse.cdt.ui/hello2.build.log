@@ -1,0 +1,41 @@
+17:43:42 **** Incremental Build of configuration Debug for project hello2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:60:1: error: unknown type name 'u32'
+ u32 readsw();
+ ^~~
+../src/helloworld.c:61:15: error: unknown type name 'u32'
+ void writeled(u32 value);
+               ^~~
+../src/helloworld.c:63:1: error: unknown type name 'XGpio'
+ XGpio gpio;
+ ^~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:74:7: warning: implicit declaration of function 'writeled' [-Wimplicit-function-declaration]
+       writeled(readsw());
+       ^~~~~~~~
+../src/helloworld.c: In function 'init_gpio':
+../src/helloworld.c:86:2: warning: implicit declaration of function 'XGpio_Initialize' [-Wimplicit-function-declaration]
+  XGpio_Initialize(&gpio, XPAR_AXI_GPIO_0_DEVICE_ID);
+  ^~~~~~~~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:90:1: error: unknown type name 'u32'
+ u32 readsw()
+ ^~~
+../src/helloworld.c: In function 'readsw':
+../src/helloworld.c:92:2: error: unknown type name 'u32'
+  u32 val = 0;
+  ^~~
+../src/helloworld.c:94:8: warning: implicit declaration of function 'XGpio_DiscreteRead' [-Wimplicit-function-declaration]
+  val = XGpio_DiscreteRead(&gpio, 2);
+        ^~~~~~~~~~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:100:15: error: unknown type name 'u32'
+ void writeled(u32 value)
+               ^~~
+make: *** [src/helloworld.o] Error 1
+
+17:43:43 Build Finished (took 515ms)
+

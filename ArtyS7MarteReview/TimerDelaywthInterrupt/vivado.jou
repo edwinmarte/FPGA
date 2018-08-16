@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Aug 16 16:56:00 2018
+# Process ID: 11664
+# Current directory: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/TimerDelaywthInterrupt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8108 C:\Users\E.Marte\Documents\GitHub\Marte_Fpga\ArtyS7MarteReview\TimerDelaywthInterrupt\FromWebSystem.xpr
+# Log file: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/TimerDelaywthInterrupt/vivado.log
+# Journal file: C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/TimerDelaywthInterrupt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/TimerDelaywthInterrupt/FromWebSystem.xpr
+launch_sdk -workspace C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/TimerDelaywthInterrupt/FromWebSystem.sdk -hwspec C:/Users/E.Marte/Documents/GitHub/Marte_Fpga/ArtyS7MarteReview/TimerDelaywthInterrupt/FromWebSystem.sdk/design_1_wrapper.hdf
+update_compile_order -fileset sources_1
